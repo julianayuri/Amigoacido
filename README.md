@@ -1,6 +1,6 @@
 # Amigoacido
 
-Amigoácido é um jogo educacional do gênero \textit{clicker game} desenvolvido para a plataforma Android. O jogador deve usar todos os seus conhecimentos adquiridos em sala de aula para manter o equilíbrio da célula e garantir seu funcionamento normal. Além disso, deve descobrir quais as estranhas criaturas que lá habitam.
+Amigoácido é um jogo educacional do gênero clicker game desenvolvido para a plataforma Android. O jogador deve usar todos os seus conhecimentos adquiridos em sala de aula para manter o equilíbrio da célula e garantir seu funcionamento normal. Além disso, deve descobrir quais as estranhas criaturas que lá habitam.
 
 ## Características Gerais do Jogo 
 
