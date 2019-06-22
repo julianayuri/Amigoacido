@@ -1,0 +1,10 @@
+{
+	"codon": {"v": 0}, 
+	"musica": {"v": 1}, 
+	"moeda": {"v": 0}, 
+	"first": {"v": 1}, 
+	"estabilidade": {"v": 100}, 
+	"carregando": {"v": 0}, 
+	"son": {"v": 1},
+	"preco_codon": {"v": 500}
+}

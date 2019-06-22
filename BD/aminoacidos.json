@@ -1,0 +1,22 @@
+{
+	"val": {"name": "Valina", "status": 0, "qtd": 0, "moedas": 3, "price": 50}, 
+	"leu": {"name": "Leucina", "status": 0, "qtd": 0, "moedas": 3, "price": 50}, 
+	"trp": {"name": "Triptofano", "status": 0, "qtd": 0, "moedas": 3, "price": 50}, 
+	"pro": {"name": "Prolina", "status": 0, "qtd": 0, "moedas": 3, "price": 50}, 
+	"ile": {"name": "Isoleucina", "status": 0, "qtd": 0, "moedas": 3, "price": 50}, 
+	"met": {"name": "Metionina", "status": 0, "qtd": 0, "moedas": 3, "price": 50}, 
+	"fen": {"name": "Fenilalanina", "status": 0, "qtd": 0, "moedas": 3, "price": 50}, 
+	"ala": {"name": "Alanina", "status": 0, "qtd": 0, "moedas": 3, "price": 50}, 
+	"tre": {"name": "Treonina", "status": 0, "qtd": 0, "moedas": 3, "price": 50}, 
+	"gli": {"name": "Glicina", "status": 0, "qtd": 0, "moedas": 3, "price": 50}, 
+	"asn": {"name": "Asparagina", "status": 1, "qtd": 1, "moedas": 3, "price": 50}, 
+	"gln": {"name": "Glutamina", "status": 0, "qtd": 0, "moedas": 3, "price": 50}, 
+	"cis": {"name": "Cisteína", "status": 0, "qtd": 0, "moedas": 3, "price": 50}, 
+	"ser": {"name": "Serina", "status": 0, "qtd": 0, "moedas": 3, "price": 50}, 
+	"tir": {"name": "Tirosina", "status": 0, "qtd": 0, "moedas": 3, "price": 50}, 
+	"arg": {"name": "Arginina", "status": 0, "qtd": 0, "moedas": 3, "price": 50}, 
+	"his": {"name": "Histidina", "status": 0, "qtd": 0, "moedas": 3, "price": 50}, 
+	"lis": {"name": "Lisina", "status": 0, "qtd": 0, "moedas": 3, "price": 50}, 
+	"glu": {"name": "Acido glutamico", "status": 0, "qtd": 0, "moedas": 3, "price": 50}, 
+	"asp": {"name": "Acido aspartico", "status": 0, "qtd": 0, "moedas": 3, "price": 50}
+}
