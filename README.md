@@ -1,4 +1,7 @@
-# Amigoacido
+<img src="https://github.com/julianayuri/Amigoacido/blob/master/Image/logo_amigoacido.png"
+     alt="amigoacido"
+     style="float: left; margin-right: 10px;"
+     height="200" />
 
 Amigoácido é um jogo educacional do gênero clicker game desenvolvido para a plataforma Android. O jogador deve usar todos os seus conhecimentos adquiridos em sala de aula para manter o equilíbrio da célula e garantir seu funcionamento normal. Além disso, deve descobrir quais as estranhas criaturas que lá habitam.
 
