@@ -1,0 +1,53 @@
+<Loja>:
+	id: loja
+	title: 'Loja'
+	title_color: [ .333, .333, .333, 1]
+	separator_color: [ .333, .333, .333, 1] 
+	size_hint: (0.9, 0.8)
+	background: 'Image/Buttons/fundo_branco.png'
+	ScrollView:
+		GridLayout:
+			id: grid_loja
+			cols: 1
+			id: loja
+			size_hint_y: None
+			height: self.minimum_height
+
+
+<Item>:
+	cols: 3
+	size_hint_y: None
+	height: 200
+	RelativeLayout:
+		ImageButton:
+			id: item_image
+			size_hint_y: None
+			height: root.height*0.8
+			pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+			on_press: root.open_informativo()
+	RelativeLayout:
+		Label:
+			id: item_desc
+			color: [0.41, 0.42, 0.74, 1]
+			pos_hint: {'center_x': 0.25, 'center_y': 0.5}
+			font_size: root.width*0.04
+	RelativeLayout:
+		Button:
+			id: item_button
+			value: 0
+			size_hint_y: None
+			height: root.height*0.4
+			pos_hint: {'center_x': 0.4, 'center_y': 0.5}
+			referencia: ''
+			on_press: root.press_button(item_button.referencia)
+			background_normal: 'Image/Buttons/generico.png'
+
+<Informativo_aminoacido>:
+	id: informativo_aminoacido
+	title: ''
+	#title_color: [1,0,1,1]
+	separator_color: [1,1,1,0]
+	size_hint: (0.8, 0.6)
+	background: root.info_src
+	on_touch_down: self.dismiss()
+	

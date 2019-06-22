@@ -1,0 +1,41 @@
+	
+<Configuracao>:
+	title: 'Configurações'
+	title_color: [  .333, .333, .333, 1]
+	separator_color: [  .333, .333, .333, 1] 
+	size_hint: (0.7, 0.5)
+	background: 'Image/Buttons/fundo_branco_menor.png'
+	GridLayout:
+		cols: 1
+		GridLayout:
+			cols: 2
+			Label:
+				text: 'Música'
+				color: [ .333, .333, .333, 1] 
+				font_size: '20sp'
+			CheckBox:
+				id: music_box
+				color: [ .333, .333, .333, 1]
+				#background_radio_down: ""
+				#background_radio_normal: ""
+				on_active: root.if_active_music(self.active)
+			Label:
+				text: 'Sons'
+				color: [ .333, .333, .333, 1] 
+				font_size: '20sp'
+			CheckBox:
+				id: son_box
+				color: [ .333, .333, .333, 1]
+				#background_radio_down: ""
+				#background_radio_normal: ""
+				on_active: root.if_active_son(self.active)
+		Image:
+		
+		Button:
+			text: 'Tutorial'
+			size_hint_y: None
+			height: root.height*0.15
+			on_press: root.open_tutorial()
+			background_normal: 'Image/Buttons/generico.png'
+		Image:
+			source: 'Image/freepik.png'

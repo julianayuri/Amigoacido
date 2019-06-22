@@ -1,0 +1,90 @@
+<Fabrica>:
+	id: fabrica
+	title: 'Ribossomo'
+	title_color: [ .333, .333, .333, 1]
+	separator_color: [ .333, .333, .333, 1] 
+	size_hint: (0.9, 0.8)
+	background: 'Image/Buttons/fundo_branco.png'
+	
+	GridLayout:
+		id: grid_fabrica
+		qtd_codons: 0
+		cols: 1
+		Label:
+			text: '{} Codons disponiveis'.format(int(grid_fabrica.qtd_codons))
+			color: [0.41, 0.42, 0.74, 1]
+			size_hint_y: None
+			font_size: root.width*0.08
+			size: self.texture_size
+		FloatLayout:
+			id: manager_fabrica
+			size_hint_y: None
+			height: root.height*0.7
+			canvas.before:
+				Color:
+					rgba: 1, 1, 1, 1
+				Rectangle:
+					pos: self.pos
+					size: self.size
+					source: 'Image/ribossomo.png'
+			TextInput:
+				size_hint: (.1, .11)
+				pos_hint: {'center_x': 0.365, 'y': 0.22}
+				id: p
+				disabled: True
+				font_size: self.height*0.6
+				halign: 'center'
+			TextInput:
+				id: s
+				size_hint: (.1, .11)
+				pos_hint: {'center_x': 0.485, 'y': 0.2}
+				disabled: True
+				font_size: self.height*0.6
+				halign: 'center'
+			TextInput:
+				id: t
+				size_hint: (.1, .11)
+				pos_hint: {'center_x': 0.605, 'y': 0.22}
+				disabled: True
+				font_size: self.height*0.6
+				halign: 'center'			
+			TextInput:
+				size_hint: (.1, .11)
+				pos_hint: {'center_x': 0.365, 'y': 0.38}
+				id: resp_p
+				font_size: self.height*0.6
+				halign: 'center'
+			TextInput:
+				id: resp_s
+				size_hint: (.1, .11)
+				pos_hint: {'center_x': 0.485, 'y': 0.38}
+				font_size: self.height*0.6
+				halign: 'center'
+			TextInput:
+				id: resp_t
+				size_hint: (.1, .11)
+				pos_hint: {'center_x': 0.605, 'y': 0.38}
+				font_size: self.height*0.6
+				halign: 'center'
+		Button:
+			text: 'Conferir'
+			size_hint_y: None
+			height: root.height*0.1
+			on_press: root.conferir_resposta()
+			background_normal: 'Image/Buttons/generico.png'
+<Informativo>:
+	id: informativo
+	title: ''
+	separator_color: [1,1,1,0]
+	size_hint: (0.9, 0.5)
+	background: root.info_src
+	on_touch_down: self.dismiss()
+
+<Close_Fabrica>:
+	id: close_fabrica
+	title: ''
+	separator_color: [1,1,1,0] 
+	size_hint: (0.9, 0.5)
+	background: "Image/manutencao.png"
+	on_touch_down: self.dismiss()
+	
