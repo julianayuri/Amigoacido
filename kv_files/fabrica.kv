@@ -14,6 +14,7 @@
 			text: '{} Codons disponiveis'.format(int(grid_fabrica.qtd_codons))
 			color: [0.41, 0.42, 0.74, 1]
 			size_hint_y: None
+			width: 1
 			font_size: root.width*0.08
 			size: self.texture_size
 		FloatLayout:
@@ -83,8 +84,9 @@
 <Close_Fabrica>:
 	id: close_fabrica
 	title: ''
-	separator_color: [1,1,1,0] 
-	size_hint: (0.9, 0.5)
+	separator_color: [1,1,1,0]
+	#size_hint: (0.9, 0.5)
+	width: 1
 	background: "Image/manutencao.png"
 	on_touch_down: self.dismiss()
-	
+
